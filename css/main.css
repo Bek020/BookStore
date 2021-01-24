@@ -1,0 +1,140 @@
+.container {
+  margin: 0 auto;
+  min-width: 1200px;
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0 50px;
+}
+.header__title {
+  font-family: "Open Sans", sans-serif;
+  color: #B90038;
+}
+.header__text-color {
+  font-family: "Open Sans", sans-serif;
+  color: #000000;
+}
+
+.card {
+  margin: 0 auto;
+}
+.card__link {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+}
+.card__item {
+  margin: 10px;
+  padding: 20px;
+  width: 300px;
+  transition: 0.5s;
+}
+.card__item:hover {
+  background: #f1edee;
+  border-radius: 20px;
+  box-shadow: 0px 32px 50px -40px #e65482;
+}
+.card__ball {
+  content: "";
+  position: absolute;
+  left: 10px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #A85482;
+  z-index: -1;
+}
+.card__ball-second {
+  content: "";
+  position: absolute;
+  top: -20px;
+  right: 27px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: #A85482;
+  z-index: -1;
+}
+.card__ball-third {
+  content: "";
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #A85482;
+  z-index: -1;
+}
+.card__ball-fourth {
+  content: "";
+  position: absolute;
+  top: 130px;
+  left: 10px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #A85482;
+  z-index: -1;
+}
+.card__image {
+  position: relative;
+  padding-top: 20px;
+  text-align: center;
+}
+.card__image-wrap {
+  width: 150px;
+  height: 210px;
+}
+.card__title {
+  font-family: "Open Sans", sans-serif;
+  color: #B90038;
+  margin-top: 20px;
+  margin: 0;
+}
+.card__desc {
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  margin: 0 0 20px;
+}
+.card__price-old {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  color: #999999;
+}
+.card__price {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  color: #B90038;
+}
+.card__end-card {
+  display: flex;
+  margin: 40px 0;
+}
+.card__btn {
+  font-family: "Open Sans", sans-serif;
+  border-radius: 30px;
+  background: #2D16B1;
+  color: white;
+  padding: 5px 20px;
+  border: none;
+}
+.card__like {
+  margin: 5px 0 5px 50px;
+  font-size: 20px;
+}
+
+.fa-heart {
+  color: #FE96B9;
+}
+
+.fa-star {
+  color: #B90038;
+}
+
+/*# sourceMappingURL=main.css.map */

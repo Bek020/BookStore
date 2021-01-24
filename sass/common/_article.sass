@@ -1,0 +1,116 @@
+.card
+  margin: 0 auto
+
+  &__link
+    display: flex
+    justify-content: space-between
+    list-style: none
+    padding: 0
+
+  &__item 
+    margin: 10px
+    padding: 20px
+    width: 300px
+    transition: .5s
+
+  &__item:hover
+    background: #f1edee
+    border-radius: 20px
+    box-shadow: 0px 32px 50px -40px #e65482
+  
+  &__ball
+    content: ''
+    position: absolute
+    left: 10px
+    width: 100px
+    height: 100px
+    border-radius: 50%
+    background: #A85482
+    z-index: -1
+
+    &-second
+      content: ''
+      position: absolute
+      top: -20px
+      right: 27px
+      width: 200px
+      height: 200px
+      border-radius: 50%
+      background: #A85482
+      z-index: -1
+
+    &-third
+      content: ''
+      position: absolute
+      top: 50px
+      right: 10px
+      width: 100px
+      height: 100px
+      border-radius: 50%
+      background: #A85482
+      z-index: -1
+
+    &-fourth
+      content: ''
+      position: absolute
+      top: 130px
+      left: 10px
+      width: 100px
+      height: 100px
+      border-radius: 50%
+      background: #A85482
+      z-index: -1
+
+  &__image
+    position: relative
+    padding-top: 20px
+    text-align: center
+
+    &-wrap
+      width: 150px
+      height: 210px
+
+  &__title
+    font-family: 'Open Sans', sans-serif
+    color: #B90038
+    margin-top: 20px
+    margin: 0
+
+  &__desc 
+    font-family: 'Open Sans', sans-serif
+    font-size: 13px
+    margin: 0 0 20px
+
+  &__price-old
+    margin:  0
+    font-family: 'Open Sans', sans-serif
+    font-size: 20px
+    color: #999999
+
+  &__price
+    margin: 0
+    font-family: 'Open Sans', sans-serif
+    font-size: 30px
+    color: #B90038
+
+  &__end-card
+    display: flex
+    margin: 40px 0
+
+  &__btn
+    font-family: 'Open Sans', sans-serif
+    border-radius: 30px
+    background: #2D16B1
+    color: white
+    padding: 5px 20px
+    border: none
+
+  &__like
+    margin: 5px 0 5px 50px
+    font-size: 20px
+
+.fa-heart
+  color: #FE96B9
+
+.fa-star 
+  color: #B90038
