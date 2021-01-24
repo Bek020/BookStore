@@ -29,7 +29,7 @@
 .card__item {
   margin: 10px;
   padding: 20px;
-  width: 300px;
+  width: 250px;
   transition: 0.5s;
 }
 .card__item:hover {
